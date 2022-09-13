@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: "Prima Nova";
+  src: url("../assets/PrimaNova/Proxima\ Nova\ Font.otf");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Prima Nova", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
