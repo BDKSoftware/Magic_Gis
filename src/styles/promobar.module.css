@@ -1,0 +1,27 @@
+.barContainer {
+  margin-top: 10px;
+  position: sticky;
+  width: 100vw;
+  height: 30px;
+  background-color: #000;
+}
+
+.contentContainer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mainText {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.descText {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
